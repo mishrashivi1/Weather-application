@@ -42,22 +42,26 @@ Weather API (e.g., OpenWeatherMap) — For fetching live weather data
 Clone the repository:
 
 git clone https://github.com/mishrashivi1/Weather-application
-cd your-repo-name
+
+cd Weather-application
 
 Run the app:
 
 Simply open index.html in your browser, or use a local development server:
+
 npx live-server
 
 📡 How It Works
 
 The user types a city name into the search input.
+
 On clicking Get Weather, the app makes a fetch() request to a free public weather API — no authentication or API key required:
 
    https://wttr.in/{city}?format=j1
 (or whichever public endpoint is used in the project)
 
 The API returns a JSON response with temperature, humidity, weather description, and more.
+
 The app parses the response and dynamically updates the weather card on the page.
 
 📁 Project Structure
